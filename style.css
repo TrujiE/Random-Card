@@ -1,0 +1,25 @@
+body{
+	background: green;
+}
+
+.carta{
+	height: 450px;
+	width: 300px;
+	transform: translate(100%,0%);
+	border-radius: 15px;
+}
+
+.pinta_arriba{
+	font-size: 70px;
+	transform: translate(5%,0%);
+}
+
+.numero{
+	font-size: 130px;
+	transform: translate(35%,40%);
+}
+
+.pinta_abajo{
+	font-size: 70px;
+	transform: translate(80%, 165%);
+}
