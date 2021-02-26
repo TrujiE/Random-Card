@@ -4,12 +4,15 @@
 	<title>Random Card</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body onload="randomCard()">
+<body onload="./card.js/randomCard()">
+	<button onclick="random();">Nueva Carta</button>
+	<button onclick="setTimeout(random, 10000)">Nueva Carta en 10 Seg.</button>
 	<div class="carta" style="background-color: white;">
 		<div class="pinta_arriba" id="pinta">♥</div>
 		<div class="numero" id="num">6</div>
 		<div class="pinta_abajo" id="pinta2">♥</div>
 	</div>
+
 <script type="text/javascript" src="./card.js"></script>
 </body>
 </html>

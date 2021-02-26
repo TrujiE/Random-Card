@@ -16,6 +16,19 @@ function randomCard(){
     return numero;
 }
 
+function random(){
+
+
+	let element = document.getElementById("num");
+	element.innerHTML= randomCard();
+
+
+	let element2 = document.getElementById("pinta");
+	element2.innerHTML= randomPintas();
+
+
+}
+
 function randomPintas(){
     let pintas = Math.floor((Math.random() * 4));
 	switch(pintas){
